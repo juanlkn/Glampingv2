@@ -1,0 +1,29 @@
+
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
+    height: 500px;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.nav a.white-text:hover {
+    color: #e0e0e0!important;
+    }
+.nav__logo{
+    height: 60px;  
+    width: 60px;
+}

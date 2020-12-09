@@ -1,0 +1,28 @@
+.main{
+    padding-bottom: 10px;
+}
+
+.main__somos{
+    background-image: url(/images/somos/12.png);
+    padding: 150px 0 100px 0;
+    background-position: center top;
+    background-size: cover;
+}
+.main__somos h1{
+    color: #ffffff;
+}
+
+.banner__somos{
+    background-image: url(/images/somos/equipo.png) ;
+    background-position: center center;
+    background-size: cover; 
+    padding: 200px;
+    text-align: center;
+
+    h2{
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
+    }
+}
