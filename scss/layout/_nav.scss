@@ -1,13 +1,14 @@
 
 
 .view {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
-    height: 500px;
+    background: url("https://umbvirtual.edu.co/wp-content/uploads/2019/01/glamping-universidad-manuela-beltran.jpg")no-repeat center center;
+    height: 100%;
+   
 }
 @media (min-width: 768px) {
     .view {
         overflow: visible;
-        margin-top: -56px;
+        margin-top: 0px;
     }
 }
 .navbar {
@@ -18,7 +19,7 @@ html,
 body,
 header,
 .view {
-  height: 100%;
+  height: 86%;
 }
 .nav a.white-text:hover {
     color: #e0e0e0!important;
