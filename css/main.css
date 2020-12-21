@@ -81,6 +81,12 @@ header,
 .main__somos h1 {
   color: #ffffff; }
 
+.main__somos2 {
+  background-image: url(/images/contacto/15.png);
+  padding: 150px 0 100px 0;
+  background-position: center top;
+  background-size: cover; }
+
 .banner__somos {
   background-image: url(/images/somos/equipo.png);
   background-position: center center;
@@ -105,10 +111,9 @@ header,
     font-size: 3em;
     line-height: 48px;
     padding-bottom: 20px;
-    color: #e31e10;
+    color: #ffffff;
     background: linear-gradient(to right, #0bffd6 0%, #0b77dc 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent; }
+    background-clip: text; }
 
 .contact-form .form-field {
   position: relative;
@@ -168,6 +173,9 @@ header,
     font-size: 30px;
     font-weight: 900; }
 
+.objetivos__h1 {
+  color: white; }
+
 .text {
   font-size: 13px;
   color: #545454;
@@ -197,3 +205,45 @@ header,
     padding: 0; }
   .inner-container1 {
     padding: 60px; } }
+
+#testimonio__card {
+  background-color: #dbdbdb;
+  padding: 30px 0px; }
+
+.h1__testimonio {
+  font-weight: 900;
+  font-size: 34px;
+  padding-bottom: 5px; }
+
+.title {
+  text-align: center;
+  padding: 25px 0px; }
+
+.testimonio__p {
+  font-size: 18px; }
+
+.card__body {
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1); }
+
+.testimonio__a {
+  color: #19d3c1;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: auto;
+  font-weight: 600; }
+
+.card__body .testimonio__a:hover {
+  color: #08edb4;
+  text-decoration: none; }
+
+.card {
+  margin: 20px 10px; }
+
+.testimonio__img {
+  overflow: hidden; }
+
+.testimonio__img img {
+  transition: all 1.5s ease; }
+
+.testimonio__img:hover img {
+  transform: scale(1.5); }

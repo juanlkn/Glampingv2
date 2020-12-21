@@ -1,0 +1,51 @@
+#testimonio__card{
+    background-color: #dbdbdb;
+    padding: 30px 0px;
+}
+.h1__testimonio{
+      font-weight: 900;
+      font-size: 34px;
+      padding-bottom: 5px;
+  }  
+
+
+.title{
+    text-align: center;
+    padding: 25px 0px;
+}
+.testimonio__p{
+    font-size: 18px;
+}
+
+.card__body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.testimonio__a{
+    color: rgba($color: #19d3c1, $alpha: 1.0);
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+
+}
+
+.card__body .testimonio__a:hover {
+    color: #08edb4;
+    text-decoration: none;
+}
+
+.card {
+    margin: 20px 10px;
+
+}
+.testimonio__img{
+   overflow: hidden;
+    
+}
+.testimonio__img img{
+    transition: all 1.5s ease;
+}
+
+.testimonio__img:hover img{
+    transform: scale(1.5);
+}
